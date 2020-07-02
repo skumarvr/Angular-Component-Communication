@@ -1,0 +1,4 @@
+<div class = "inputArea">
+  <app-yen (valueChange)='updateUsd($event)' [yen]="yenDisplayText"></app-yen>
+  <app-usd (valueChange)='updateYen($event)' [usd]="usdDisplayText"></app-usd>
+</div>
